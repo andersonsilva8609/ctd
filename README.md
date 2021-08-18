@@ -1,7 +1,7 @@
-##Atividades realizadas nas aulas
+# Atividades realizadas nas aulas
 
-#Front-End
+### Front-End
 
-#Programaçâo Imperativa
+### Programaçâo Imperativa
 
-#Metodologia Ágeis
+### Metodologia Ágeis
