@@ -2,6 +2,6 @@
 
 ### Front-End
 
-### Programaçâo Imperativa
+### Programação Imperativa
 
 ### Metodologia Ágeis
