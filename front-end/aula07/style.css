@@ -1,0 +1,21 @@
+body{
+  background-color: rgba(245, 222, 179, 0.876);
+  background-image: url(logolc.png);
+}
+h1{
+  color: blue;
+}
+.job-title{
+background-color: blue;
+font-size: large;
+color: darkgray;
+}
+#high{
+  font-size: large;
+  color: darkgray;
+}
+ul{
+  background-color: black;
+  font-size: medium;
+  color: darkgray;
+}
