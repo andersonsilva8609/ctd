@@ -1,4 +1,6 @@
-# Atividades realizadas nas aulas
+# Curso Certified Tech Developer
+
+## Atividades realizadas nas aulas
 
 ### Front-End
 
