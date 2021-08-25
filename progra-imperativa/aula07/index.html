@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula07</title>
+</head>
+<body>
+  <script type="text/javascript">
+  /* 
+    1 - Os seguintes valores são sempre falsy:
+        false
+        0(zero)
+        '' ou ""(string vazia)
+        null
+        undefined
+        NaN(Ex: o resultado de 1/0)
+    2 - Todo o resto é truthy, o que inclui(vardadeiras):
+        '0'(uma string que contenha um simple 0)
+        'false'(uma string que contenha o texto "falso")
+  */
+
+//Criar Variável do tipo objeto
+var produto = {
+    nome: 'Cerveja',
+    tipo: 'Lager',
+    volume: '1L',
+    preco: 14.90
+}
+//Acessando os objetos
+alert(produto.nome);
+alert(produto.tipo);
+alert(produto.volume);
+alert(produto.preco);
+
+//teste
+let diaDaSenama = 'sexta-feira';
+  switch(diaDaSenama){
+        case 'domingo':
+        break;
+        case 'segunda-feira':
+        break;
+        case 'terça-feira':
+        break;
+        case 'quarta-feira':
+        break;
+        case 'quinta-feira':
+        break;
+        case 'sexta-feira':
+        break;
+        case 'sábado':
+        break;
+        default:
+          alert(`${diaDaSenama} não é um valor valido. `);
+        break;
+  }
+
+  </script>
+</body>
+</html>
