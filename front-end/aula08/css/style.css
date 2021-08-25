@@ -1,18 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto:wght@500&display=swap');
 body{
-  /*background-color: #131313;*/
+  background-color: #131313;
 }
+
 h1{
   font-family: 'Roboto', Arial, sans-serif;
   color: white;
 }
+
 .media-picture{
-  width: 100%;
-  left: 400px;
-  background-image: url('/front-end/aula08/LogoTIGarage.png')center center;
-  opacity: .2;  /* menor mais claro fica.*/
+   background-image: url('../Thor-4.jpg');
+   background-repeat: no-repeat;
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: .4;
         width: 100%;
-        height: 100%;
+        height: 400px;
 }
 
-.review-score{}
+.review-score{
+  background-color: #e6bd09;
+  color: white;
+  padding: 12px;
+}
+
+h2{
+ color: steelblue;
+}
+
+p{
+  color: #bdbdbd;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+a{
+  color: yellow;
+}
