@@ -1,41 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto:wght@500&display=swap');
-body{
-  background-color: #131313;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+body {
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
 }
 
-h1{
-  font-family: 'Roboto', Arial, sans-serif;
-  color: white;
+.media-picture {
+    background-image: url('https://wallpaperaccess.com/full/1104121.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+
 }
 
-.media-picture{
-   background-repeat: no-repeat;
-   position: absolute;
-   z-index: -1;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   opacity: .2;
-        width: 100%;
-        height: 400px;
+.review-score {
+    background-color: #f3ba00;
+    padding: 15pt;
+    font-size: 20pt;
+    font-weight:900;
+    margin-left: 50pt;
 }
 
-.review-score{
-  background-color: #e6bd09;
-  color: white;
-  padding: 12px;
+h1 {
+    font-size: 30pt;
+    font-weight:900;
+    margin-left: 50pt;
+    
 }
 
-h2{
- color: steelblue;
+strong {
+    color: #f3ba00;
 }
 
-p{
-  color: #bdbdbd;
-  font-family: 'Roboto', Arial, sans-serif;
+h2 {
+    margin-top: 40pt;
+    color: #f3ba00;
+    font-weight:600;
+    padding-left: 50pt;
 }
 
-a{
-  color: yellow;
+p {
+    font-size: 12pt;
+    padding-left: 50pt;
+    padding-right: 50pt;
+    margin-bottom: 50pt;
+}
+
+span {
+    background-color: #ffffff;
+    padding: 10pt;
+    margin-left: 50pt;
+    }
+
+a {
+    color: #e98407;
+    font-weight: 900;
+    text-decoration: none;
 }
