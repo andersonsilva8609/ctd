@@ -2,8 +2,8 @@
 
 ## Atividades realizadas nas aulas
 
-### Front-End
+### [Front-End](https://github.com/andersonsilva8609/ctd/tree/main/front-end)
 
-### Programação Imperativa
+### [Programação Imperativa](https://github.com/andersonsilva8609/ctd/tree/main/progra-imperativa)
 
 ### Metodologia Ágeis
