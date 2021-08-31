@@ -19,3 +19,11 @@
 ## Princípios
 1. Tudo sempre pode ser melhorado.
 2. Melhor algo feito do que perfeito não feito.
+
+## Uso de Ferramenta (MIRO)
+   Atividade de exercício
+   
+   Organizar um churrasco para turma usando o Kanban.
+   ![image](https://user-images.githubusercontent.com/35344735/131433087-cafd4fc8-fa6d-4d8f-9dd6-3c10fe66c228.png)
+
+   
