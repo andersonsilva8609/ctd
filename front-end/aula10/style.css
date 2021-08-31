@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url(img/imagem.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+h1{
+  font-family: 24px 'Roboto',Arial, sans-serif;
+  color: white;
+}
+h2{
+  font-family: 18px 'Roboto', Arial, sans-serif;
+  color: aqua;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #965a3e;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px 20px;
+    padding: 5px;
+    border: silver dotted 2px;
+    cursor: pointer;
+}
+/* *{
+  box-sizing: border-box;
+}
+
+.box{
+  background-color: coral;
+  width: 727px;
+  height: 409px;
+   Espaçamento interno, a leitura e como um relógio, do top, direta, inferior e esquerda exemplo: 50px 20px 40px 100px 
+  padding: 12px;
+
+  Espaçamento externo
+  margin: 12px;
+  border: 6px solid green;
+}
+
+p{
+  font-size: 16px;
+  margin: 0;
+  padding: 12px 0;
+}
+
+.box a{
+  padding-top: 12px;
+  display: block;
+}
+
+.box-second{
+  box-sizing: border-box;
+} */
