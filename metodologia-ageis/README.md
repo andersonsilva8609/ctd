@@ -11,4 +11,4 @@ A startup enxuta
 https://www.amazon.com.br/startup-enxuta-Eric-Ries/dp/8543108624
 
 Ideo Projeto Carrinho de Supermercado - legendado português
-https://www.youtube.com/watch?v=iZbXiWNeYcg&t=207s
+https://www.youtube.com/watch?v=iZbXiWNeYcg&t=207s 
