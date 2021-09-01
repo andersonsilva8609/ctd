@@ -22,4 +22,4 @@
 
 
 
-**Conheça melhor o curso, [clicando aqui.](https://www.digitalhouse.com/br/bolsas/certifiedtechdeveloper)
+**Conheça melhor o curso, [clicando aqui.](https://www.digitalhouse.com/br/bolsas/certifiedtechdeveloper)**
