@@ -1,4 +1,5 @@
-![ctd](https://user-images.githubusercontent.com/35344735/131608676-18035bbf-ad6f-401b-b95e-244aba2b3545.png)
+![CertifiedTechDeveloper](https://user-images.githubusercontent.com/35344735/131609188-c4c1805e-4928-4f7d-b76a-263290b02268.png)
+
 
 ### O Certified Tech Developer é um curso completo, pensado e desenhado pelo Mercado Livre e Globant em conjunto com a Digital House
 
