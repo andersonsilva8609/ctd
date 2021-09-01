@@ -7,12 +7,12 @@
 ## Repositório das atividades realizadas nas aulas
 <br/>
 
-### [Front-End](https://github.com/andersonsilva8609/ctd/tree/main/front-end)<br/><br/>
+### [Front-End](https://github.com/andersonsilva8609/ctd/tree/main/front-end)<br/>
 
 
-### [Programação Imperativa](https://github.com/andersonsilva8609/ctd/tree/main/progra-imperativa)<br/><br/>
+### [Programação Imperativa](https://github.com/andersonsilva8609/ctd/tree/main/progra-imperativa)<br/>
 
 
-### [Metodologia Ágeis](https://github.com/andersonsilva8609/ctd/tree/main/metodologia-ageis)<br/><br/><br/><br/><br/><br/>
+### [Metodologia Ágeis](https://github.com/andersonsilva8609/ctd/tree/main/metodologia-ageis)<br/><br/><br/><br/>
 
 **Conheça melhor o curso, <strong>[clicando aqui.]</strong>(https://www.digitalhouse.com/br/bolsas/certifiedtechdeveloper)**
