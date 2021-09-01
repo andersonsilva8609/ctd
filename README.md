@@ -2,15 +2,14 @@
 
 
 ## É um curso completo, pensado e desenhado pelo Mercado Livre e Globant em conjunto com a Digital House.
-----------------------------------------------------------------------------------------------------------<br/><br/><br/><br/><br/>
-
+<br/>
 ## Repositório das atividades realizadas nas aulas
-<br/><br/><br/>
+<br/>
 
-### [Front-End](https://github.com/andersonsilva8609/ctd/tree/main/front-end)<br/><br/><br/>
+### [Front-End](https://github.com/andersonsilva8609/ctd/tree/main/front-end)<br/><br/>
 
 
-### [Programação Imperativa](https://github.com/andersonsilva8609/ctd/tree/main/progra-imperativa)<br/><br/><br/>
+### [Programação Imperativa](https://github.com/andersonsilva8609/ctd/tree/main/progra-imperativa)<br/><br/>
 
 
 ### [Metodologia Ágeis](https://github.com/andersonsilva8609/ctd/tree/main/metodologia-ageis)<br/><br/><br/><br/><br/><br/><br/><br/><br/>
