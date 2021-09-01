@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/35344735/131606821-9e58016c-5262-47e5-95f3-a2824bc95e64.png)
+
 # Curso Certified Tech Developer
 
 ## Algumas das Atividades realizadas nas aulas
