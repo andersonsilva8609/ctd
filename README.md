@@ -1,11 +1,11 @@
 ![CertifiedTechDeveloper](https://user-images.githubusercontent.com/35344735/131609188-c4c1805e-4928-4f7d-b76a-263290b02268.png)
 
 
-### É um curso completo, pensado e desenhado pelo Mercado Livre e Globant em conjunto com a Digital House.
-----------------------------------------------------------------------------------------------------------
+## É um curso completo, pensado e desenhado pelo Mercado Livre e Globant em conjunto com a Digital House.
+----------------------------------------------------------------------------------------------------------<br/><br/><br/><br/><br/>
 
 ## Repositório das atividades realizadas nas aulas
-
+<br/><br/><br/>
 
 ### [Front-End](https://github.com/andersonsilva8609/ctd/tree/main/front-end)<br/><br/><br/>
 
@@ -15,4 +15,4 @@
 
 ### [Metodologia Ágeis](https://github.com/andersonsilva8609/ctd/tree/main/metodologia-ageis)<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
-<strong>Conheça melhor o curso, [clicando aqui.]</strong>(https://www.digitalhouse.com/br/bolsas/certifiedtechdeveloper)
+**Conheça melhor o curso, <strong>[clicando aqui.]</strong>(https://www.digitalhouse.com/br/bolsas/certifiedtechdeveloper)**
