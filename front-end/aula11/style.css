@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 300vh;
+}
+
+h1 {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.caixa {
+  width: 300px;
+  height: 300px;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.esquerda-exterior {
+  position: absolute;
+  left: 0;
+}
+
+.direita-exterior {
+  position: absolute;
+  text-align: center;
+  right: 0;
+}
+
+.central-exterior {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.caixa-interna {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* body{
+  height: 300vh;
+  margin: 0 !important;
+}
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+  margin-top: 12px;
+}
+.second-box{
+  width: 100%;
+  padding-left: 20px;
+}
+.posicionamento{
+  position: fixed;
+  background-color: gold;
+  left:500px;
+  top: 0px;
+}
+.whatsapp{
+  width: 100px;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+} */
