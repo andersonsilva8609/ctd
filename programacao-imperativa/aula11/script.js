@@ -1,6 +1,6 @@
 let lista = ["Feijão", "Sabonete", "Arroz", "Escova", "Farinha"]
  
-console.log(lista[0].split('i'));
+console.log(lista[0].split('i')); 
 // console.log("O método Join junta índices de um array, podendo colocar um caractere entre cada índice.Ex: " + lista.join(" - "))
 // console.log("O método Pop remove e retorna o último índice do array. Ex: " + lista.pop())
  

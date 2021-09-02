@@ -45,7 +45,6 @@ if (tempo==tempoPadrao)
   console.log('O prato',prato,'está pronto! Bom apetite!');
 }
 }
-
 //microondas(1,10);
 //microondas(1,20);
 //microondas(1,8);
