@@ -29,33 +29,3 @@ button{
     border: silver dotted 2px;
     cursor: pointer;
 }
-/* *{
-  box-sizing: border-box;
-}
-
-.box{
-  background-color: coral;
-  width: 727px;
-  height: 409px;
-   Espaçamento interno, a leitura e como um relógio, do top, direta, inferior e esquerda exemplo: 50px 20px 40px 100px 
-  padding: 12px;
-
-  Espaçamento externo
-  margin: 12px;
-  border: 6px solid green;
-}
-
-p{
-  font-size: 16px;
-  margin: 0;
-  padding: 12px 0;
-}
-
-.box a{
-  padding-top: 12px;
-  display: block;
-}
-
-.box-second{
-  box-sizing: border-box;
-} */
