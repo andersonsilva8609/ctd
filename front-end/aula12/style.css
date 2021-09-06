@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+*{
+	margin: 0;
+	padding: 0;
+}
+:root {
+  --bg: white;
+  --bg-sub: white;
+  --red: #e74c3c;
+  --text: #0a0a0a;
+  --text-dark: #131312;
+  --border: #0a0a0a;
+}
+.nav-logo{
+  -webkit-background-size:44px 31px;background-size:44px 31px;
+  width:200px;
+  height:122px;
+  top:8px;
+  left:5px
+}
+h1, h2, h3 {
+    font-family: "Ubuntu", sans-serif;
+    color: var(--text);
+    font-size: xx-large;
+}
+p,a {
+    font-family: "Roboto", sans-serif;
+    color: var(--text);
+}
+.inicial {
+  background-color: var(--bg);
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding-top: 65px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    background: var(--bg-sub);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    border-bottom: 2px solid var(--border);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menu-options {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  
+  }
+  .menu-options:hover {
+    color: var(--text);
+    border-bottom: 1px solid var(--style-text);
+  }
+.capa{
+    width: auto;
+    height: 350px;
+    background-image: url('https://s.zst.com.br/cms-assets/2020/12/notebook-gamer-na-black-friday-2020_-8-laptops-que-podem-ficar-baratos-deumzoomop-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.card {
+    background-color: var(--bg-sub);
+
+    border-radius: 16px;
+    border: 2px solid var(--border);
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px ;
+}
+.horizontal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.vertical{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.grande{
+    width: 700px;
+    height: 100px;
+}
+.pequeno{
+    width: 224px;
+    height: 330px;
+}
+.card-sub{
+    width: 170px;
+    height: 90px;
+}
+.vendas{
+  width: 50px;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+}
+
