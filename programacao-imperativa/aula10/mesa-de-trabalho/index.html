@@ -47,24 +47,30 @@
         `;
         // Crie as funções a partir daqui.
 
-         //  1. Crie uma função para buscar qual o index da primeira palavra Mengo.
-        function buscarMengo(){
-            console.log(letraDaMusica.indexOf("Mengo"))
-        }
+        //  //  1. Crie uma função para buscar qual o index da primeira palavra Mengo.
+         function buscarMengo(){
+        //     https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions
+             let indice = letraDaMusica.indexOf(/mengo/gi);
+             return indice;
+        } buscarMengo();
         // 2. Crie uma função para substituir o nome Mengo por outro nome de Time.
-        function substituirMengo(){
-            console.log(letraDaMusica.replaceAll("Mengo", "Flamengo"))
-        }
-         // 3. Crie uma função para contar quantos caracteres existem no texto. 
-        //    Obs.: Contando com apenas os espaços entre as letras, espaços entre paragrafos não devem ser calculados).
-        function contarCaracteres(){
-            console.log(letraDaMusica.trim().length);
-        }
-
-         //    4. Crie uma função para contar quantas palavras existem no texto.
-        function contarPalavras(){
-            console.log(letraDaMusica.trim().split(" ").length+1);
-        }
+         function substituirMengo(){
+             let letraAtualizada =  letraDaMusica.replace(/mengo/gi, 'Flamengo')
+             return letraAtualizada;
+         }
+        //  // 3. Crie uma função para contar quantos caracteres existem no texto. 
+        // //    Obs.: Contando com apenas os espaços entre as letras, espaços entre paragrafos não devem ser calculados).
+         function contarCaracteres(){
+            let letraSemEspacos =  letraDaMusica
+            .trim() //https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/trim
+            .split(/\n\s*/g) //https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split
+            .join('') //https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+            //.lenght //https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/length
+         }
+        //  //    4. Crie uma função para contar quantas palavras existem no texto.
+        // function contarPalavras(){
+        //     console.log(letraDaMusica.trim().split((' ').length+1);
+        // }
             /* Sala 09
             Anderson silva
             Juliana Ferrão
@@ -72,5 +78,6 @@
             Carlos Filho
             */
     </script>
+     <!-- <script src="script-resolucao.js"></script> -->
 </body>
 </html>
