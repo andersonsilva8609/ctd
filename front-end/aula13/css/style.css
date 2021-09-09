@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+	margin: 0;
+  padding: 0;
+}
+img{
+  width: auto;
+  height: 100px; 
+}
+.form-container {
+  width: 400px; 
+  height: 150px; 
+  left: 50%; 
+  margin: -130px 0 0 -210px; 
+  padding:10px;
+  position: absolute; 
+  top: 30%;
+  text-align:center;
+  /*width: '50%';
+  */
+}
+
+form {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #fffefe41;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #ce8909;
+  text-shadow: 5px 5px 5px black;
+}
+input, textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+}
+input:hover, textarea:hover, input:focus, textarea:focus {
+  border-color: #000066;
+  box-shadow: 5px 0px 9px #FFFF00;
+  color: black;
+  font-weight: bold;
+}
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+form label {
+  margin-left: 20px;
+  color: #131212;
+  font-weight: bold;
+}
+.enviar {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #ce8909;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid;
+  color: black;
+  margin-left: 85%;
+}
