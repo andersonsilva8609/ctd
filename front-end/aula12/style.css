@@ -77,7 +77,6 @@ img{
 }
 .card {
     background-color: var(--bg-sub);
-
     border-radius: 16px;
     border: 2px solid var(--border);
     margin-bottom: 15px;
