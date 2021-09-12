@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+*{
+	margin: 0;
+	padding: 0;
+}
+:root {
+  --bg: white;
+  --bg-sub: white;
+  --red: #e74c3c;
+  --text: #0a0a0a;
+  --text-dark: #131312;
+  --border: #42404005;
+}
+.nav-logo{
+  -webkit-background-size:44px 31px;background-size:44px 31px;
+  width:140px;
+  height:122px;
+  top:8px;
+  left:5px
+}
+h1, h2, h3 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: var(--text);
+}
+p,a {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: var(--text);
+}
+.inicial {
+  background-color: var(--bg);
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding-top: 65px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    background: var(--bg-sub);
+    position: fixed;
+    width: 100%;
+    height: 140px;
+    border-bottom: 2px solid var(--border);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menu-options {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .menu-options:hover {
+    color: var(--text);
+    border-bottom: 1px solid var(--style-text);
+  }
+.img-fundo1{
+    background-image: url('https://visitecampinas.com.br/wp-content/uploads/2019/02/lagoa_taquaral-Campinas.jpg');
+    opacity: .2;
+    width: auto;
+    height: 1278px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.img-fundo2{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('https://visitecampinas.com.br/wp-content/uploads/2019/02/lagoa_taquaral-Campinas.jpg');
+  opacity: .2;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sobre{
+  position: relative;
+  padding: 200px;
+}
+.contato{
+  width: 50px;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+}
