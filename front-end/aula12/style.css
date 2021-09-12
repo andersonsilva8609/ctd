@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 *{
 	margin: 0;
@@ -20,12 +19,12 @@
   left:5px
 }
 h1, h2, h3 {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: var(--text);
     font-size: xx-large;
 }
 p,a {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: var(--text);
 }
 .inicial {
