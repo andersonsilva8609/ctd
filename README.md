@@ -15,4 +15,4 @@
 
 ### [Metodologia Ágeis](https://github.com/andersonsilva8609/ctd/tree/main/metodologia-ageis)<br/><br/><br/><br/>
 
-**Conheça melhor o curso, <strong>[clicando aqui.]</strong>(https://www.digitalhouse.com/br/bolsas/certifiedtechdeveloper)**
+**Conheça melhor o curso, [clicando aqui.](https://www.digitalhouse.com/br/bolsas/certifiedtechdeveloper)**
