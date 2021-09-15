@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesa de Trabalho - Objetos literais parte I, JSON</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        /*
+            Atividade I: Crie um Objeto Literal
+            Vamos simular informações gerais de uma conta bancária. 
+            Para isso deve-se basear nos seguintes recursos:
+            (  ) Nome completo do usuário.
+            (  ) Número da Agência.
+            (  ) Número da Conta.
+            (  ) Saldo Atual.
+            (  ) Depósito.
+            (  ) Saque.
+        */
+        /*
+            Atividade II: Adicione funcionalidades ao Objeto Literal.
+            (  ) O usuário deve ser capaz de visualizar seu Saldo Atual.
+            (  ) O usuário deve ser capaz de Depositar. Após o depósito o sistema deve informar o Saldo Atual atualizado.
+            (  ) O usuário deve ser capaz de Sacar. Após o saque o sistema deve informar o Saldo Atual atualizado.
+            (  ) O usuário não pode ser capaz de sacar mais do que possui de Saldo. se não possui saldo o sistema deve responder uma mensagem de erro.
+            Sujestões de mensagem:
+            - Agora seu Saldo Atual é de R$ X.
+            - Você realizou um saque de R$ X. Agora seu Saldo Atual é de R$ X.
+            - Saldo insuficiente! Seu Saldo Atual é de R$ ${this.saldoAtual}.
+        */
+        /*
+            Atividade III: Converta os valores em texto JSON
+            (  ) Converta o resultado o objeto literal em JSON.
+        */
+
+        var contaBancaria = {
+            nome: 'Nome de Teste',
+            numeroDaAgencia: '1234',
+            numeroDaConta: '123456',
+            saldoAtual: 15.0,
+            deposito: function(valor) {
+               this.saldoAtual = this.saldoAtual + valor;
+               this.exibirSaldo(); 
+            },
+            saque: function(valor) {
+                if(this.saldoAtual < valor) {
+                    console.log(`Saldo insuficiente! Seu Saldo Atual é de R$ ${this.saldoAtual}.`)
+                } else {
+                    this.saldoAtual = this.saldoAtual - valor;
+                    this.exibirSaldo();
+                }
+            },
+            exibirSaldo: function() {
+                return console.log(`Agora seu Saldo Atual é de R$ ${this.saldoAtual}`);
+            }
+        }
+        /* Gerado JSON do objeto contaBancaria */
+        var contaBancariaJson = JSON.stringify(contaBancaria);
+
+        contaBancaria.exibirSaldo();
+        contaBancaria.deposito(10);
+        contaBancaria.saque(5);
+        contaBancaria.saque(30);
+
+        console.log(contaBancariaJson);
+
+    </script>
+</body>
+</html> 
