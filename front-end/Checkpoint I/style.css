@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -9,22 +10,30 @@
   --red: #e74c3c;
   --text: #0a0a0a;
   --text-dark: #131312;
-  --border: #42404005;
+  /**--border: #0f0f0f;*/
 }
 .nav-logo{
-  -webkit-background-size:44px 31px;background-size:44px 31px;
+  -webkit-background-size:44px 31px;
+  background-size:44px 31px;
   width:140px;
   height:122px;
   top:8px;
   left:5px
 }
-h1, h2, h3 {
+h1 {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: var(--text);
 }
-p,a {
+a {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: var(--text);
+}
+p{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: var(--text);
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .inicial {
   background-color: var(--bg);
