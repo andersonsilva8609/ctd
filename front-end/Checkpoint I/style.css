@@ -83,6 +83,12 @@ img{
     background-repeat: no-repeat;
     vertical-align: middle;
 }
+.texto{
+  position: absolute;
+  top: 445px;
+  right: 20px;
+  text-align: center;
+}
 .img-fundo2{
   position: absolute;
   z-index: -1;
@@ -97,10 +103,7 @@ img{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.sobre{
-  position: relative;
-  padding: 200px;
-}
+
 .contato{
   width: 50px;
   position: fixed;
