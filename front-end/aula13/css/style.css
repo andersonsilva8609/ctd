@@ -6,16 +6,16 @@
 }
 img{
   width: auto;
-  height: 100px; 
+  height: 400px; 
 }
 .form-container {
   width: 400px; 
   height: 150px; 
   left: 50%; 
   margin: -130px 0 0 -210px; 
-  padding:10px;
+  padding:20px;
   position: absolute; 
-  top: 30%;
+  top: 8%;
   text-align:center;
   /*width: '50%';
   */
@@ -51,12 +51,12 @@ input:hover, textarea:hover, input:focus, textarea:focus {
   font-weight: bold;
 }
 textarea {
-  width: 400px;
+  width: 200px;
   height: 120px;
   line-height: 20px;
   max-width: 400px;
 }
-form label {
+form label, select {
   margin-left: 20px;
   color: #131212;
   font-weight: bold;

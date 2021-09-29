@@ -8,24 +8,60 @@
 </head>
 <body>
     <form name="meu_form" class="form-container">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Google_logo_%282010-2013%29.svg/1024px-Google_logo_%282010-2013%29.svg.png" alt="">
-      <h1>Entre em contato</h1>
-      <div>
-      <label for="nome">Nome</label>
-      <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
-      </div>
-      <div>
-      <label for="telefone">Telefone</label>
-      <input type="tel" id="telefone" placeholder="(xx)xx-xx-xx-xx" name="telefone" />
-      </div>
-      <div>
-      <label for="email">Email</label>
-      <input type="email" id="email" placeholder="seuemail@dominio.com" name="email" />
-      </div>
-      <div>
-      <textarea placeholder="Deixe sua opnião"></textarea>
-      </div>
+      <img src="https://emporiodacerveja.vtexassets.com/arquivos/ids/177011-800-auto?width=800&height=auto&aspect=true" alt="">
+      <h1>Pedido Nº 10</h1>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+            <div>
+              <label for="nome">Nome</label>
+              <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
+            </div>
+            <div>
+              <label for="idade">Idade</label>
+              <input type="text" id="idade" placeholder="Sua idade" name="idade" />
+            </div>
+            <div>
+              <label for="telefone">Whatzapp</label>
+              <input type="tel" id="telefone" placeholder="(xx)xx-xx-xx-xx" name="telefone" />
+            </div>
+           
+        </fieldset>
+        <fieldset>
+          <legend>Localização</legend>
+          <div>
+            <label for="estado">Estados</label>
+            <select name="estado" id="estado">
+              <optgroup label="Opções">
+                <option value="SP"></option>
+                <option value="RJ"></option>
+                <option value="MG"></option>
+                <option value="BA"></option>
+                <option value="PR"></option>
+            </optgroup>
+            </select>
+        </div>
+          <div> 
+            <label for="cidade">Cidade</label>
+            <input type="text" list="cidades" name="cidade" id="cidade">
+            <datalist id="cidades">
+              <option value="São Paulo"></option>
+              <option value="São Roque"></option>
+              <option value="São Judas Tadeu"></option>
+              <option value="São Gabriel"></option>
+              <option value="São Pedro"></option>
+              <option value="São João da boa Vista"></option>
+              <option value="São Tadeu"></option>
+              <option value="São Bernador"></option>
+            </datalist>
+          </div>
+        </fieldset>
+        <fieldset>
+            <div>
+              <textarea placeholder="Deixe sua opnião"></textarea>
+            </div>
+      </fieldset>
       <button type="submit" class="enviar">Envar</button>
     </form>
 </body>
+<script src="js/script.js"></script>
 </html>
