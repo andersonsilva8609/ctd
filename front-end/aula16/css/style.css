@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+  padding: 0;
+}
+
+@keyframes movimento{
+  25%{
+    transform: translate(-20px);
+  }
+  50%{
+    opacity: 0;
+  }
+  75%{
+    transform: translate(20px);
+  }
+
+}
+@keyframes float{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+    transform: translate(20px);
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+button{
+border: none;
+padding: 12px 32px;
+/* transition: .2s ease-in-out background-color .5s; */
+margin: 100px auto;
+display: block;
+border-radius: 80px 80px 80px 80px;
+left: calc(50% - 240px / 2);
+animation-name: movimento;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-duration: alternate;
+
+/* animação
+transition-duration: .2s;
+transition-timing-function: ease-in-out;
+transition-property: background-color;
+transition-delay: .5s;
+*/
+}
+
+ button:hover{
+  background-color:red;
+  transform-origin: bottom right;
+  transform: scale(1.3)
+             translate(20px, -20px)
+             rotate(360deg);
+   /* margin-top: 10px; */
+} 
+div{
+  text-align: center;
+  display: block;
+  font-size: 86px;
+  animation-name: float;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-duration: alternate;
+}
