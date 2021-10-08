@@ -7,7 +7,7 @@
 
 }
 
-/* Main depoimento */
+/* Main alunos */
 main {
 
   display: flex;
@@ -77,7 +77,7 @@ main cite {
 
  list-style: none;
  text-decoration: none;
- color: #C2467F;
+ color: rgba(245, 13, 44, 0.76);
 
 }
 
@@ -103,7 +103,7 @@ main cite {
 .container-custom .card-custom:hover {
 
   transform:translateY(-20px);
-  background-color: #ED8C9B;
+  background-color: rgba(238, 12, 46, 0.575);
   box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 
 }
@@ -138,7 +138,7 @@ main cite {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight:500;
-  color: #C2467F ;
+  color: rgb(207, 51, 51) ;
   background-color: transparent;
   border: none;
   padding: 6px 0;
@@ -152,7 +152,7 @@ main cite {
   font-size: 14px;
   font-weight:500;
   color: #FAF5F5;
-  background-color: #C2467F;
+  background-color: rgb(194, 70, 76);
   border: none;
   padding: 6px 32px;
   border-radius: 6px;
@@ -167,9 +167,9 @@ main cite {
   text-transform: uppercase;
   color: #FAF5F5;
   border-radius: 16px;
-  border: solid 1px #C2467F;
+  border: solid 1px rgb(194, 70, 70);
   padding: 6px 32px;
-  background-color: #C2467F;
+  background-color: rgb(194, 70, 70);
   transition: 0.5s;
 
 }
@@ -179,9 +179,9 @@ main cite {
   text-decoration: none;
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
-  color: #C2467F;
+  color: rgb(194, 70, 70);
   border-radius: 16px;
-  border: solid 1px #C2467F;
+  border: solid 1px rgb(194, 70, 70);
   padding: 6px 32px;
   background-color: transparent;
 }
@@ -192,7 +192,7 @@ main cite {
 
   padding: 32px 0px;
   background-color: #FEEAF3;
-  background-image: linear-gradient( #FAF5F5, #EB7AAE );
+  background-image: linear-gradient( #FAF5F5, rgb(235, 122, 128) );
   border: none;
   border-radius: 16px;
 

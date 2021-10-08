@@ -1,5 +1,5 @@
 .header-site{
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,17 +7,14 @@
     color: #ffffff;
     padding-top: 300px;
     padding-bottom: 300px;
-
 }
 
 .content-site{
-
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
 .imagem-site{
-
     background-image: url(../img/banner2.jpg);
     background-position: center top;
     background-repeat: no-repeat;
@@ -62,6 +59,5 @@
 .social img:hover {
     width: 1.5rem;
     cursor: pointer;
-    /*transform: scale(1.5);*/
     transform: translateY(-8px);
 }
