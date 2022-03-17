@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main-menu{
+ background-color: blueviolet;
+}
+
+ul{
+  list-style: inside;
+}
