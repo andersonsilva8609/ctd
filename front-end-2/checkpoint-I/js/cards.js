@@ -1,58 +1,64 @@
 const cardsSection = document.getElementById("card-container");
 const formulario = document.getElementById("form");
 
-let produto = document.querySelector('.cadNomeInput');
+let nome = document.querySelector('.cadNomeInput');
 let codigo = document.querySelector('.cadCodigoInput');
-let tamanho = document.querySelector('.cadTamanhoSelect');
-let cor = document.querySelector('.cadCorInput');
-let preco = document.querySelector('.cadPrecoInput');
+let setor = document.querySelector('.cadSetorSelect');
+let admissao = document.querySelector('.cadAdmissaoInput');
+let nasc = document.querySelector('.cadNascInput');
 let imagem = document.querySelector('.cadUrlInput');
 let descricao = document.querySelector('#cadDescricaoInput');
 
 
 //se tiver valores no localStorage ele pega esses valores, se não tiver, ele seta um array vazio.
-let listaProdutos = JSON.parse(localStorage.getItem("listaAniversariantes") || '[]');
+let listaNivers = JSON.parse(localStorage.getItem("listaNiver") || '[]');
 
 //Função que vai funcionar quando clicar no botão de Adicionar
 formulario.addEventListener("submit", (event) => {
     //Tira o comportamento padrão do botão submit de atualizar a página
     event.preventDefault();
     //Array de valores dos cards
-    listaProdutos.push(
+    listaNivers.push(
         {
-            nome: produto.value,
+            nome: nome.value,
             codigo: codigo.value,
-            tamanho: tamanho.value,
-            cor: cor.value,
-            preco: preco.value,
+            setor: setor.value,
+            admissao: admissao.value,
+            nasc: nasc.value,
             imagem: imagem.value,
             descricao: descricao.value
         }
     );
 
     //cria o card com os valores passado no formulário
-    criarCard(produto.value, codigo.value, tamanho.value, cor.value, preco.value, imagem.value, descricao.value);
+    criarCard(nome.value, codigo.value, setor.value, admissao.value, nasc.value, imagem.value, descricao.value);
 
-    //Seta os valores do listaProdutos no localStorage
-    localStorage.setItem("listaAniversariantes", JSON.stringify(listaAniversariantes));
-
+    //Seta os valores do listaAniversariantes no localStorage
+    localStorage.setItem("listaNiver", JSON.stringify(listaNivers));
 
     //Resetando os valores dentro do formulário
     formulario.reset();
 
 });
+ 
+// Dia aniversário
+let dataAni = nasc; 
+function aniversario(){
+    let dateControl = document.querySelector('input[type="date"]');
+        dateControl.value
+}
 
 
 //função para criar os cartões
-function criarCard(nome, codigo, dataNasc, diaNiver, imagem, descricao) {
+function criarCard(nome, codigo, setor, admissao, nasc, imagem, descricao) {
     cardsSection.innerHTML += `
     <article class="card">
         <img src="${imagem}"
             alt="">
         <div class="card-div">
             <h3>${nome}</h3>
-            <p>Tamanho ${dataNasc}</p>
-            <span>Preço: ${diaNiver}</span>
+            <span>Setor: ${setor}</span>
+            <span>Aniverário: ${nasc}</span>
         </div>
         <div class="div-btn-circle">
             <button class="btn-circle">+</button>
@@ -64,8 +70,9 @@ function criarCard(nome, codigo, dataNasc, diaNiver, imagem, descricao) {
                 alt="">
                 <h3>${nome}</h3>
                 <p>Código: ${codigo}</p>
-                <p>Tamanho: ${dataNasc}</p>
-                <p>Preço: ${diaNiver}</p>
+                <p>Setor: ${setor}</p>
+                <p>Admissao: ${admissao}
+                <p>Nascimento: ${nasc}</p>
                 <p class ="descricao">Descrição: ${descricao}</p>
                 <button class="btn-deletar">Deletar Card</button>
             </div>
@@ -80,11 +87,10 @@ function criarCard(nome, codigo, dataNasc, diaNiver, imagem, descricao) {
 //Função para chamar os cards armazenados no localStorage, quando o usuário der f5 ou fechar e abrir a página
 window.onload = function () {
     //Percorre todos os itens e valores do objeto e cria os cartões com ele
-    listaProdutos.map(value => {
-        criarCard(value.nome, value.codigo, value.dataNasc, value.diaNiver, value.imagem, value.descricao);
+    listaNivers.map(value => {
+        criarCard(value.nome, value.codigo, value.setor, value.admissao, value.nasc, value.imagem, value.descricao);
     });
 };
-
 
 // Função do modal
 function modalsFunctions() {
@@ -116,8 +122,8 @@ function modalsFunctions() {
         //função para deletar o card 
         btnDeleter.addEventListener('click', () => {
             card.remove();
-            listaProdutos.splice(i, 1);
-            localStorage.setItem("listaAniversariantes", JSON.stringify(listaAniversariantes));
+            listaNivers.splice(i, 1);
+            localStorage.setItem("listaNiver", JSON.stringify(listaNivers));
         });
 
         //função para fechar o modal

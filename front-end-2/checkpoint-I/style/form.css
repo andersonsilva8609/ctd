@@ -1,0 +1,135 @@
+/* Estilo do formulário */
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal-background);
+    width: 20rem;
+    margin: 0.5rem;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px var(--box-shadow-color);
+}
+
+.modo-noite form {
+    background-color: #212121;
+}
+
+
+  input {
+      border: 1px solid var(--color-default);
+      margin: 0.5rem 0;
+      border-radius: 0.2rem;
+      padding: 0.8rem;
+      font-size: 1.0rem;
+  }
+
+
+  input:required:valid , textarea:required:valid, select:required:valid  {
+    border-color: var(--color-valid);
+  }
+
+  input:required:focus:valid, textarea:required:focus:valid, select:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+    background-size: 25px;
+  }
+  input:focus:invalid, textarea:focus:invalid, select:focus:invalid{
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+    background-size: 25px;
+  }
+  
+
+form h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--principal-btn);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+label {
+    color: var(--text-color);
+}
+
+form textarea {
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+    resize: none;
+    font-size: 1.4rem;
+}
+
+.modo-noite input, textarea{
+    background-color: var(--text-btn);
+}
+
+/* ESTILO DO SELECT */
+
+select {
+    appearance: none;
+    border-radius: 0.2rem;
+    background-color: white;
+    padding: 0.7rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    /* Estilo da seta do select */
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+select:focus {
+    background-image:
+      linear-gradient(45deg, var(--principal-btn) 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, var(--principal-btn) 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - 2.5em) 0.5em;
+    border-color: var(--principal-btn);
+    outline: 0;
+  }
+
+/* ESTILO DOS INPUT [TYPE:"NUMBER] - SEM OS CONTADORES */
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.botao {
+    background-color: var(--principal-btn);
+    font-size: 1.2rem;
+    width: 15rem;
+    align-self: center;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-btn);
+    letter-spacing: 0.1rem;
+    border: 2px solid var(--principal-btn);
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: var(--hover-principal);
+}
+
+.botao[type="reset"] {
+    margin-top: 0.2rem;
+    background-color: var(--text-btn);
+    color: var(--principal-btn);
+    border: 2px solid var(--principal-btn);
+}
+
+.botao[type="reset"]:hover{
+    background-color: var(--hover-light);
+}

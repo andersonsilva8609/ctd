@@ -18,8 +18,8 @@
             integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
             crossorigin="anonymous">
         <!-- CSS -->
-        <link rel="stylesheet" href="./css/style.css">
-        <title>Checkpoint I</title>
+        <link rel="stylesheet" href="./style/style.css">
+        <title>Front-End II - Checkpoint I</title>
     </head>
 
     <body>
@@ -28,7 +28,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <a class="menu" href="#"><img class="logo"
-                            src="./img/icon.png"></a>
+                            src="img/icon.png"></a>
                     <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false"
@@ -39,8 +39,8 @@
                         id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Cadastro dos
-                                    aniversáriantes da empresa</a>
+                                <a class="nav-link" href="#">Todos os
+                                    Aniversáriantes</a>
                             </li>
                         </ul>
                     </div>
@@ -55,37 +55,52 @@
             </div>
             <section id="container">
                 <form action="" id="form">
-                    <h1>Cadastrar Aniversáriante</h1>
-                    <label for="nomeProduto" class="cadNome">Nome do
+                    <h1>Cadastro de Aniversáriantes</h1>
+                    <label for="nomeFun" class="cadNome">Nome do
                         Funcionário*</label>
                     <input type="text" class="cadNomeInput" placeholder=" "
                         data-js="nome" minlength="3"
                         oninvalid="this.setCustomValidity('Digite um produto')"
                         oninput="this.setCustomValidity('')" required>
 
-                    <label for="codigoProduto" class="cadCodigo">Código do
+                    <label for="codigoFun" class="cadCodigo">Código do
                         Funcionário*</label>
                     <input type="text" class="cadCodigoInput" placeholder=" "
                         minlength="3" maxlength="10" size="10" data-js="codigo"
                         oninvalid="this.setCustomValidity('Digite um código')"
                         oninput="this.setCustomValidity('')" required>
 
-                    <label for="tamanho" class="cadTamanho">Data Nascimento*</label>
-                    <div class="input-group date">
-                        <input name="departure" type="text" class="form-control" id="departure" required>
-                            <span class="input-group-addon">
-                             <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
-                            </span>
-                    </div>
-
-                    <label for="preco" class="cadPreco">Dia Aniversário*</label>
-                    <input type="text" name="inputPreco" class="cadPrecoInput"
-                        placeholder="0,00" maxlength="10" data-js="preco"
-                        oninvalid="this.setCustomValidity('Campo preço não pode ser vazio')"
+                    <label for="setor" class="cadSetor">Setor de trabalho*</label>
+                    <select class="cadSetorSelect"
+                        oninvalid="this.setCustomValidity('Escolha uma opção')"
                         oninput="this.setCustomValidity('')" required>
+                        <option value="">Selecione o setor.</option>
+                        <option value="Administração">Administração</option>
+                        <option value="Administração">Contabilidade</option>
+                        <option value="Recursos Humanos">Recursos Humanos</option>
+                        <option value="Departamento pessoal">Departamento pessoal</option>
+                        <option value="Recepção">Recepção</option>
+                        <option value="Almoxarifado">Almoxarifado</option>
+                        <option value="Cozinha">Cozinha</option>
+                        <option value="Limpeza">Limpeza</option>
+                        <option value="Segurança">Segurança</option>
+                        <option value="Tecnologia">Tecnologia</option>
+                    </select>
+
+                    <label for="admissao" class="cadAdminissao">Admissao*</label>
+                    <input id="date" type="date" class="cadAdmissaoInput" data-js="admissao"
+                    oninvalid="this.setCustomValidity('Esse campo não pode ser vazio')"
+                    oninput="this.setCustomValidity('')" required
+                    >
+                    
+                    <label for="nasc" class="cadNasc">Data Nascimento*</label>
+                    <input id="date" type="date" class="cadNascInput" data-js="nasc"
+                        oninvalid="this.setCustomValidity('Esse campo não pode ser vazio')"
+                        oninput="this.setCustomValidity('')" required
+                    >
 
                     <!-- ADIÇÃO DO CAMPO PARA A URL -->
-                    <label for=" url" class="cadUrl">Url da Imagem*</label>
+                    <label for=" url" class="cadUrl">URL da Imagem*</label>
                     <input type="url" data-js="url" class="cadUrlInput"
                         oninvalid="this.setCustomValidity('Entre com uma URL válida')"
                         oninput="this.setCustomValidity('')" required>
@@ -97,7 +112,7 @@
                         rows="10" maxlength="150"
                         oninvalid="this.setCustomValidity('Digite uma descrição para o produto')"
                         oninput="this.setCustomValidity('')"
-                        required></textarea>
+                        ></textarea>
 
                     <button type="submit" id="botaoEnviar"
                         class="botao Enviar">Adicionar</button>
@@ -116,9 +131,9 @@
             integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
             crossorigin="anonymous"></script>
 
-        <script src="./js/validation.js" type="module"></script>
+        <script src="./js/validacoes.js" type="module"></script>
         <script src="./js/cards.js" type="module"></script>
-        <script src="./js/model.js"></script>
+        <script src="./js/dark-mode.js"></script>
     </body>
 
 </html>
